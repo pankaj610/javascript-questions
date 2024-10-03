@@ -1,0 +1,11 @@
+(function() {
+  console.log('IIFE using parenthesis')
+})()
+
+~function() {
+  console.log('IIFE using a bitwise operator')
+}()
+
+void function() {
+  console.log('IIFE using the void operator')
+}()
